@@ -42,7 +42,7 @@ import pickle
 with open("./alexnet_cluster_assignment.pickle", "rb") as f:
     b = pickle.load(f)
 ```
-If you're a Python 3 user, specify ```encoding='latin1'``` in the load fonction.
+If you're a Python 3 user, specify ```encoding='latin1'``` in the load function.
 Each file is a list of (image path, cluster_index) tuples.
 * [AlexNet-clusters](https://dl.fbaipublicfiles.com/deepcluster/alexnet/alexnet_cluster_assignment.pickle)
 * [VGG16-clusters](https://dl.fbaipublicfiles.com/deepcluster/vgg16/vgg16_cluster_assignment.pickle)
